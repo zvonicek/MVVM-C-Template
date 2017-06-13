@@ -9,8 +9,11 @@
 import UIKit
 
 final class ___FILEBASENAMEASIDENTIFIER___ViewController: UIViewController {
-    var viewModel: ___FILEBASENAMEASIDENTIFIER___ViewModel!
+
     var coordinator: ___FILEBASENAMEASIDENTIFIER___Coordinator!
+    var viewModel: ___FILEBASENAMEASIDENTIFIER___ViewModel!
+
+    // MARK: - View lifecycle
 
     override func viewDidLoad() {
         super.viewDidLoad()
